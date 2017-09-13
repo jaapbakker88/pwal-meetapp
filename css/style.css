@@ -6361,13 +6361,18 @@ body {
  * Don't forget to add vendor prefixes!
  */
 .m-scene {
-  /** Basic styles for an animated element */
-  /** An element that fades in */ }
+  /** Reverse "exit" animations */ }
   .m-scene .scene_element {
     animation-duration: 0.25s;
     transition-timing-function: ease-in;
     animation-fill-mode: both; }
   .m-scene .scene_element--fadein {
     animation-name: fadeIn; }
+  .m-scene .scene_element--fadeinup {
+    animation-name: fadeInUp; }
+  .m-scene .scene_element--fadeinright {
+    animation-name: fadeInRight; }
+  .m-scene.is-exiting .scene_element {
+    animation-direction: alternate-reverse; }
 
 /*# sourceMappingURL=style.css.map */
