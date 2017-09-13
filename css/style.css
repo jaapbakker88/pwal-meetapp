@@ -6297,6 +6297,9 @@ body {
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(-134deg, #FFB6B6 0%, #600070 100%), url("../img/backgroundimg.jpg"); }
+  @media screen and (max-width: 320px) {
+    .main-header {
+      height: 400px; } }
   .main-header .main-header--title {
     z-index: 200;
     color: rgba(255, 255, 255, 0.89);
@@ -6314,20 +6317,30 @@ body {
   align-items: center;
   justify-content: center;
   background-image: linear-gradient(-134deg, #FFB6B6 0%, #600070 100%), url("../img/backgroundimg.jpg"); }
+  #signup--page .list-group .list-group-item {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.79); }
 
 input#honeypot {
   display: none;
   /*makes the field not visible to humans*/ }
 
 #intro {
+  padding-left: 5px;
+  padding-right: 5px; }
+
+#intro .container {
   z-index: 200;
   margin-top: -100px;
   padding: 3em 2em;
   background: #F9F9F9;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 4px;
   color: rgba(35, 35, 35, 0.89); }
-  #intro h3 {
+  @media screen and (max-width: 320px) {
+    #intro .container {
+      padding: 2em 1em; } }
+  #intro .container h3 {
     text-align: center;
     margin: 0 0 1em; }
 
