@@ -18,8 +18,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: linear-gradient(-134deg, #FFB6B6 0%, #600070 100%),
-					  url('../img/backgroundimg.jpg');
+	background-image: url('../img/background.jpg'), linear-gradient(-134deg, #FFB6B6 0%, #600070 100%);
+	background-size: cover;
 	@media screen and (max-width: $break-small) {
 	  height: 400px; 
 	}
