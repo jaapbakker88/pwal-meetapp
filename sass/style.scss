@@ -21,6 +21,9 @@ body {
 		z-index: 200;
 		color: rgba(255, 255, 255, 0.89);
 		text-align: center;
+		.btn-outline-light:hover {
+			color: #000;
+		}
 	} 
 }
 
@@ -36,5 +39,43 @@ body {
 	h3 {
 		text-align: center;
 		margin: 0 0 1em;
+	}
+}
+
+#sports {
+	padding-top: 100px;
+	margin-top: 100px;
+	min-height: 600px;
+	background: linear-gradient(195deg, #f8f8ff 50%, #F2F2FF 50%);
+	.sports--header {
+		position: relative;
+		&:after {
+			content: '';
+			display: block;
+			width: 280px;
+			height: 5px;
+			margin: 20px auto; 
+			background-image: linear-gradient(43deg, #008452 0%, #17D48D 100%);
+			border-radius: 100px;
+		}
+	}
+}
+
+#dining {
+	margin-top: -20px;
+	padding-top: 100px;
+	min-height: 600px;
+	background: linear-gradient(195deg, #F2F2FF 50%, #f8f8ff 50%);
+	.dining--header {
+		position: relative;
+		&:after {
+			content: '';
+			display: block;
+			width: 280px;
+			height: 5px;
+			margin: 20px auto; 
+			background-image: linear-gradient(43deg, #9700FF 0%, #3B12FF 100%);
+			border-radius: 100px;
+		}
 	}
 }
