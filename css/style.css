@@ -6347,10 +6347,12 @@ input#honeypot {
 
 #sports {
   padding-top: 100px;
-  margin-top: 100px;
+  margin-top: 150px;
+  padding-bottom: 150px;
   min-height: 600px;
   background: linear-gradient(195deg, #f8f8ff 50%, #F2F2FF 50%); }
   #sports .sports--header {
+    margin-bottom: 50px;
     position: relative; }
     #sports .sports--header:after {
       content: '';
@@ -6363,12 +6365,32 @@ input#honeypot {
 
 #dining {
   margin-top: -20px;
-  padding-top: 100px;
+  padding-top: 150px;
+  padding-bottom: 150px;
   min-height: 600px;
   background: linear-gradient(195deg, #F2F2FF 50%, #f8f8ff 50%); }
   #dining .dining--header {
+    margin-bottom: 50px;
     position: relative; }
     #dining .dining--header:after {
+      content: '';
+      display: block;
+      width: 280px;
+      height: 5px;
+      margin: 20px auto;
+      background-image: linear-gradient(43deg, #9700FF 0%, #3B12FF 100%);
+      border-radius: 100px; }
+
+#nightlife {
+  margin-top: -20px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  min-height: 600px;
+  background: linear-gradient(195deg, #f8f8ff 50%, #F2F2FF 50%); }
+  #nightlife .nightlife--header {
+    margin-bottom: 50px;
+    position: relative; }
+    #nightlife .nightlife--header:after {
       content: '';
       display: block;
       width: 280px;
